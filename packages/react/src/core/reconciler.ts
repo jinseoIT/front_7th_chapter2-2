@@ -10,7 +10,6 @@ import {
   updateDomProps,
 } from "./dom";
 import { createChildPath } from "./elements";
-import { isEmptyValue } from "../utils";
 
 /**
  * 이전 인스턴스와 새로운 VNode를 비교하여 DOM을 업데이트하는 재조정 과정을 수행합니다.
